@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server.js",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
     "test:integration": "mocha ./src/tests/integration/*$NAME*.test.js --exit",
     "test:units": "mocha ./src/tests/units/*$NAME*.test.js --exit",
     "tests": "mocha ./src/tests/**/*$NAME*.test.js --exit",
